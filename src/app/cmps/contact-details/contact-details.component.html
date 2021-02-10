@@ -1,0 +1,18 @@
+<div class="contact-details-btns">
+    <a class="a-btn" routerLink="/contacts">Back</a>
+    <a class="a-btn" routerLink="/edit/{{contact._id}}">Edit</a>
+</div>
+
+<div *ngIf="contact">
+    <img src='https://robohash.org/{{contact.name}}.png?set=set4&size=150x150'>
+    <h2>{{contact.name}}</h2>
+    <h2>{{contact.phone}}</h2>
+    <h2>{{contact.email}}</h2>
+</div>
+
+<transfer-fund [contact]="contact"></transfer-fund>
+
+<h2>Moves History</h2>
+<!-- <moves-list [moves] = "user.moves|filterArray:'to':contact.name"></moves-list> -->
+<moves-list *ngIf="contact" [moves] = "contact.moves"></moves-list>
+<!-- <a class="a-btn" routerLink="/edit/{{contact._id}}"><button>Edit</button></a> -->

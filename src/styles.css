@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    color: rgb(66, 52, 10);
+    /* background-image: url('https://image.freepik.com/free-photo/bitcoin-coin-dark-wall_161488-562.jpg'); */
+    /* background-image: url('http://blog.quantvan.com/wp-content/uploads/2019/05/bitcoin-futures-930x620.png'); */
+    /* background-image: url('https://www.verdict.co.uk/bitcoin-price-predictions-2019/?utm_source=Army%20Technology&utm_medium=website&utm_campaign=Must%20Read&utm_content=Image'); */
+    background-color: rgb(80, 62, 12);;
+    /* background-image:url('./assets/img/—Pngtree—black gold wind financial bitcoin_1025312.jpg'); */
+    /* background-image: url('https://image.freepik.com/free-photo/bitcoin-plain-background-with-copy-space_23-2148285261.jpg'); */
+    /* background-image: url('https://image.freepik.com/free-photo/bitcoin-with-various-colors-plain-background_23-2148285334.jpg'); */
+    background-image: url('https://thumbs.dreamstime.com/z/gold-coins-bitcoin-falling-down-vector-illustration-cryptocurrency-chips-white-background-166522131.jpg');
+    /* background-image: url('https://thumbs.dreamstime.com/z/golden-coins-bitcoin-falling-down-seamless-vector-pattern-cryptocurrency-gold-chips-white-background-166522107.jpg'); */
+    /* background-repeat: repeat; */
+    /* background-size: cover;  */
+    /* <a href='https://www.freepik.com/photos/background'>Background photo created by freepik - www.freepik.com</a> */
+    /* <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a> */
+    font-family: "montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(231, 214, 171);
+    color: rgb(80, 62, 12);
+    align-items: center;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    border:1px solid rgb(80, 62, 12);
+    background-color:rgb(231, 214, 171);
+}
+
+nav a {
+    margin-right:2px;
+    font-size:x-large;
+    color: rgb(231, 214, 171);
+    background-color: rgb(80, 62, 12);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.a-btn {
+    font-size:x-large;
+    color: rgb(231, 214, 171);
+    background-color: rgb(80, 62, 12);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+button {
+    
+    font-size: 25px;
+    color: rgb(231, 214, 171);
+    background-color: rgb(80, 62, 12);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none
+}

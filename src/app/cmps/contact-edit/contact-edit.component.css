@@ -1,0 +1,22 @@
+.contact-edit {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(228, 220, 201);
+    margin-top: 50px;
+    width: 500px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size:x-large;
+    text-align:left
+}
+
+.contact-edit-btns {
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width: 500px
+}

@@ -1,0 +1,7 @@
+.contact-details-btns {
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 50px
+}

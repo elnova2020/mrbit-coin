@@ -1,0 +1,20 @@
+
+<div class="contact-edit-btns">
+
+    <button (click)="onBack()">Back</button>
+    <button (click)="onDelete()">Delete</button>
+</div>
+
+<img src='https://robohash.org/{{contact.name}}.png?set=set4&size=100x100'>
+<form class="contact-edit" (submit)="onSaveContact()">
+    <label>Name</label>
+    <input type="text" name="name" [(ngModel)]="contact.name" />
+    <label>Phone</label>
+    <input type="text" name="phone" [(ngModel)]="contact.phone" />
+    <label >Email</label>
+    <input type="email" name="email" [(ngModel)]="contact.email" />
+    <button>Save</button>
+  </form>
+  
+
+
